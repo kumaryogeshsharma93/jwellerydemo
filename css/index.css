@@ -1,0 +1,300 @@
+/*header css Start*/
+.menuTop {
+    background: #eecfa1;
+    padding: 6px 0px;
+}
+.menuTopSocial {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: revert;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    margin-right: 15px;
+}
+a:hover {
+    color: #fff;
+}
+.menuTopSocialIcon> a:last-child{
+    margin-right: 0px;
+}
+.menuTopSocialLinks{
+    width: 93%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+.menuTopSocialLink {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.menuTopSocialLinks span {
+    font-size: 16px;
+}
+/* toggle icon css start*/
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background-color: #ebe7de;
+    background-color: #f4f5e5;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .overlay-content> hr{
+      width: 70%;
+      margin: auto;
+      margin-top: 50px;
+      color: #000;
+  }
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 45px;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+    line-height: 65px;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #000;
+  }
+  .toggleNavbarIcon span {
+    display: inline-block;
+    padding: 0px 8px;
+    font-size: 35px;
+}
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  .toggleNavbarIcon {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+span {
+    display: inline-block;
+    padding: 0px 16px;
+    font-size: 25px;
+}
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+  /* toggle icon css End*/
+
+  /*shop By Gender Css start*/
+  .shopByGender{
+    width: 90%;
+    margin: auto;
+  }
+  p{
+    font-size: 25px;
+  }
+  a {
+    cursor: pointer;
+  }
+  .shopAndGender {
+    padding: 50px 0px; 
+}
+.shopAndGender {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+      align-items: center;
+}
+  .shopAndGender h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    border-right: 2px solid;
+    width: 25%;
+  }
+  span.shopAndGenderImg {
+    padding: 0px 0px;
+    position: relative;
+    font-size: 14px;
+}
+a.tablinks:hover {
+  border-bottom: 2px solid red;
+}
+
+.clickhighlight {
+  border-bottom: 2px solid red;
+}
+   /*shop By Gender Css end*/
+
+ /*Form Css*/
+   .inquaryForm {
+    padding: 25px 0px;
+}
+.inquaryForm > h3 {
+  padding: 6px 8px;
+  color: #000;
+  font-size: 23px;
+  font-weight: 700;
+  margin: 0 0 5px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  background: #cfc2a7;
+  text-indent: 34px;
+}
+
+.p_anch a{
+  text-align: center;
+  border: 1px solid;
+  width: 220px;
+  position: relative;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  padding: 10px 5px;
+  border-radius: 4px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+.p_anch a:hover{
+  background: #d0c4a2;
+  border-radius: 4px;
+  color: #fff;
+  transition: background-color .3s linear,color 50ms linear 50ms;
+}
+
+input[type=text], select, textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-size: 17px;
+}
+input#finalSubmit {
+  text-align: center;
+  border: 1px solid;
+  width: 220px;
+  position: relative;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  padding: 10px 5px;
+  border-radius: 4px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+input#finalSubmit:hover {
+  background: #d0c4a2;
+  border-radius: 4px;
+  color: #fff;
+  transition: background-color .3s linear,color 50ms linear 50ms;
+}
+input[type=submit] {
+  background-color: #d0c4a2;
+  color: white;
+  padding: 11px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  width: 60%;
+  margin-right: 58px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.padding{
+  padding-bottom: 20px;
+}
+.nameEmailValidation {
+  position: relative;
+  /* left: -85px; */
+  padding: 3px 30px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  right: -37%;
+}
+.nameEmailValidation:hover{
+  background: #d0c4a2;
+  border-radius: 4px;
+  color: #fff;
+  transition: background-color .3s linear,color 50ms linear 50ms;
+}
+.nameEmailCommentValidation{
+  position: relative;
+  /* left: -85px; */
+  padding: 3px 30px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  right: -37%;
+  margin-bottom: 30px;
+}
+.nameEmailCommentValidation:hover{
+  background: #d0c4a2;
+  border-radius: 4px;
+  color: #fff;
+  transition: background-color .3s linear,color 50ms linear 50ms;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}

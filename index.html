@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>iBrandox Demo Work</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <link rel="stylesheet" href="css/common.css"/>
+      <link rel="stylesheet" href="css/index.css"/>
+      <link rel="stylesheet" href="css/responsive.css"/>
+      <link href="css/font-css/css/font-awesome.css" rel="stylesheet"/>
+      <link href="font/Roboto-Light.ttf" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+      <link type="text/css" media="all" href="css/carousel.css" rel="stylesheet" />
+      <link rel="stylesheet" href="css/jquery.popup.css" type="text/css">
+      <script type="text/javascript" src="jquery/jquery-1.11.3.min.js"></script>  
+      <script type="text/javascript" src="jquery/carousel.js"></script>
+      <script type="text/javascript" src="jquery/jquery.popup.js"></script>
+      
+      <!--Owl Js-->
+      <script src="jquery/owl.carousel.js"></script>
+      <!-- Owl Stylesheets -->
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+   </head>
+   <body>
+      <div class="container">
+         <!--Headre Start-->
+         <nav>
+            <div class="menuTop">
+               <div class="menuTopSocial">
+                  <div>Arogya Setu Mobile App</div>
+                  <div class="menuTopSocialIcon">
+                     <a href="#">Email Us <i class="fa fa-envelope-o" aria-hidden="true"></i> hello@jewelryrack.in</a>
+                     <a href="#">Call Us <i class="fa fa-phone" aria-hidden="true"></i> +91 9818666545</a>
+                  </div>
+               </div>
+            </div>
+            <div class="menuTopSocialLinks">
+               <span class="menuTopSocialLink">Jewellery</span>
+               <span class="menuTopSocialLink">gold coins</span>
+               <span class="menuTopSocialLink">astrological</span>
+               <span class="menuTopSocialLink">Logo</span>
+               <span class="menuTopSocialLink">gift</span>
+               <span class="menuTopSocialLink">Jewellery Box</span>
+               <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+            <div id="myNav" class="overlay">
+               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+               <div class="overlay-content">
+                  <a href="#">Home</a>
+                  <a href="#">About</a>
+                  <a href="#">Projects</a>
+                  <a href="#">Contact</a>
+                  <hr>
+                  <div class="toggleNavbarIcon">
+                     <div class="toggleNavbarIconText">
+                        <span>Blog</span>
+                        <span>Career</span>
+                        <span>Draw result</span>
+                     </div>
+                     <div class="toggleNavbarIconIcons">
+                        <span><i class="fa fa-facebook-square" aria-hidden="true"></i></span>
+                        <span><i class="fa fa-twitter-square" aria-hidden="true"></i></span>
+                        <span><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
+                        <span><i class="fa fa-instagram" aria-hidden="true"></i></span>
+                        <span><i class="fa fa-whatsapp" aria-hidden="true"></i></span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </nav>
+         <!--Header End-->
+         <!--Slide start-->
+         <div id="carousel-4" class="clearfix">
+            <a href="#" class="control prev"><i class="fa fa-chevron-left"></i></a>
+            <a href="#" class="control next"><i class="fa fa-chevron-right"></i></a>
+            <div class="slide_window clearfix">
+               <div class="slide">
+                  <img src="images/sample_image_800x400_4.png" alt="four" />
+                  <h2>Beauty Forged <br>In Fine</h2>
+               </div>
+               <div class="slide">
+                  <img src="images/sample_image_800x400_4.png" alt="three" />
+                  <h2>Beauty Forged <br>In Fine</h2>
+               </div>
+               <div class="slide">
+                  <img src="images/sample_image_800x400_4.png" alt="one" />
+                  <h2>Beauty Forged <br>In Fine</h2>
+               </div>
+               <div class="slide">
+                  <img src="images/sample_image_800x400_4.png" alt="two" />
+                  <h2>Beauty Forged <br>In Fine</h2>
+               </div>
+               <div class="slide">
+                  <img src="images/sample_image_800x400_4.png" alt="five" />
+                  <h2>Beauty Forged <br>In Fine</h2>
+               </div>
+            </div>
+         </div>
+         <!--Slider End-->
+         <!--Shop By Gender start-->
+         <div class="shopByGender">
+            <div class="shopAndGenderMain">
+               <div class="shopAndGender">
+                  <h2>Shop by <br>Gender</h2>
+                  <a class="tablinks tablinksclick" href="#" onClick="openGenderJewelry(event, 'men')"><img src="images/one.png" alt=""></a> <span class="shopAndGenderImg">MEN </span>
+                  <a class="tablinks tablinksclick" href="#" onClick="openGenderJewelry(event, 'women')" id="defaultOpen"><img src="images/two.png" alt=""> </a> <span class="shopAndGenderImg active">WOMEN </span>
+                  <a class="tablinks tablinksclick" href="#" onClick="openGenderJewelry(event, 'kids')"><img src="images/three.png" alt=""></a> <span class="shopAndGenderImg">KIDS </span>
+                  <a class="tablinks tablinksclick"  href="#"  onClick="openGenderJewelry(event, 'women')"><img src="images/four.png" alt=""> </a> <span class="shopAndGenderImg">PAIR </span>
+               </div>
+            </div>
+            <!--Women Product Start-->
+            <div class="owl-carousel owl-theme owl-theme-product tabcontent" id="women">
+               <div class="item">
+                  <div>
+                     <img src="images/women/1.png" alt="" width="350" height="275" class="">
+                     <p>Gray Ring</p>
+                  </div>
+               </div>
+               <div class="item">
+                  <div>
+                     <img src="images/women/2.png" alt="" width="" height="" class="">
+                     <p>Ear Ring</p>
+                  </div>
+               </div>
+               <div class="item">
+                  <div>
+                     <img src="images/women/3.png" alt="" width="" height="" class="">
+                     <p>Design Your </p>
+                  </div>
+               </div>
+               <div class="item">
+                  <div>
+                     <img src="images/women/1.png" alt="" class="">
+                     <p>Gray Ring</p>
+                  </div>
+               </div>
+               <div class="item">
+                  <div>
+                     <img src="images/women/2.png" alt="" class="">
+                     <p>DEar Ring</p>
+                  </div>
+               </div>
+            </div>
+            <!--Women Product End-->
+            <!--Men Product Start-->
+            <div class="owl-carousel owl-theme owl-theme-product tabcontent" id="men">
+               <div class="item">
+                  <div>
+                     <img src="images/men/1.jpg" alt="" width="350" height="275" class="">
+                     <p>Men's products</p>
+                  </div>
+               </div>
+               <div class="item">
+                  <div>
+                     <img src="images/men/2.jpg" alt="" width="" height="" class="">
+                     <p>Men's products</p>
+                  </div>
+               </div>
+               <div class="item">
+                  <div>
+                     <img src="images/men/3.jpg" alt="" width="" height="" class="">
+                     <p>Men's products</p>
+                  </div>
+               </div>
+               <div class="item">
+                  <div>
+                     <img src="images/men/1.jpg" alt="" class="">
+                     <p>Men's products</p>
+                  </div>
+               </div>
+               <div class="item">
+                  <div>
+                     <img src="images/men/2.jpg" alt="" class="">
+                     <p>Men's products</p>
+                  </div>
+               </div>
+            </div>
+            <!--Men Product End-->
+            <!--Kids Product Start-->
+            <div class="owl-carousel owl-theme owl-theme-product tabcontent" id="kids">
+               <div class="item">
+                  <div>
+                     <img src="images/kids/1.jpg" alt="" width="350" height="275" class="">
+                     <p>Kids products</p>
+                  </div>
+               </div>
+               <div class="item">
+                  <div>
+                     <img src="images/kids/2.jpg" alt="" width="" height="" class="">
+                     <p>Kids products</p>
+                  </div>
+               </div>
+               <div class="item">
+                  <div>
+                     <img src="images/kids/3.jpg" alt="" width="" height="" class="">
+                     <p>Kids products</p>
+                  </div>
+               </div>
+               <div class="item">
+                  <div>
+                     <img src="images/kids/1.jpg" alt="" class="">
+                     <p>Kids products</p>
+                  </div>
+               </div>
+               <div class="item">
+                  <div>
+                     <img src="images/kids/2.jpg" alt="" class="">
+                     <p>Kids products</p>
+                  </div>
+               </div>
+            </div>
+            <!--Kids Product End-->
+         </div>
+         <!--Form Validation Start-->
+           <div class="inquaryForm">
+              <h3>Mahira Homes will contact you within 24 working hours to understand your requirements.</h3>
+           </div>
+           <div class="p_anch">
+            <a href="#" class="lal js__p_another_start">QUICK INQUIRY</a>
+          </div>
+           <div class="p_body js__p_body js__fadeout"></div>
+
+           <div class="popup js__popup js__slide_top">
+             <a href="#" class="p_close js__p_close" title="Закрыть">
+               <span></span><span></span>
+             </a>
+           </div>
+         
+           <div class="popup js__another_popup js__slide_top">
+             <a href="#" class="p_close js__p_close" title="Закрыть">
+               <span></span><span></span>
+             </a>
+             <div class="p_content">
+                <h4>QUICK INQUIRY</h4>
+                <p>Mahira Homes will contact you within 24 working hours to understand your requirements.</p>
+               <form action="#">
+                  <div class="row">
+                     <h6 id="userNameErrorMessage"></h6>
+                    <div class="col-25">
+                      <label for="fname">Name</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="fname" name="firstname" placeholder="Enter Your name..">
+                    </div>
+                  </div>
+                  <div class="row padding" id="email">
+                     <h6 id="emailErrorMessage"></h6>
+                    <div class="col-25">
+                      <label for="Email">Email</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="femail" name="email" placeholder="Enter Your Email..">
+                    </div>
+                    <button type="button" class="nameEmailValidation" id="nameEmailValidation">Next</button>
+                  </div>
+                  <div class="row" id="locations">
+                     <h6 id="optionSelect"></h6>
+                    <div class="col-25">
+                      <label for="location" >Location</label>
+                    </div>
+                    <div class="col-75">
+                      <select id="select">
+                        <option value="0">Select Location</option>
+                        <option value="4">SECTOR 95</option>
+                        <option value="3">SECTOR 68 PHASE-II</option>
+                        <option value="2">MAHIRA HOMES 68</option>
+                        <option value="5">MAHIRA HOMES 63-A</option>
+                        <option value="1">MAHIRA HOMES 103</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="row" id="comment">
+                     <h6 id="userNameErrorComment"></h6>
+                    <div class="col-25">
+                      <label for="subject">Message</label>
+                    </div>
+                    <div class="col-75">
+                      <textarea name="subject" id="fcomment" placeholder="Write something.." style="height:200px"></textarea>
+                    </div>
+                    <button type="button" class="nameEmailCommentValidation" id="nameEmailCommentValidation">Next</button>
+                  </div>
+                  
+                  <div class="row" id="submit">
+                    <input type="button" value="Submit" id="finalSubmit">
+                  </div>
+                  </form>
+             </div>
+           </div>
+         <!--Form Validation End
+            -->
+      </div>
+      <script type="text/javascript" src="jquery/demo.js"></script>
+   </body>
+</html>

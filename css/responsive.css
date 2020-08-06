@@ -1,0 +1,75 @@
+@media all and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    .menuTopSocial {
+        font-size: 8px;
+    }
+    .slide>h2 {
+        top: 2%;
+        right: 8%;
+        font-size: 19px;
+    }
+    .shopAndGender h2 {
+        font-family: 'Dancing Script', cursive;
+        font-size: 18px;
+        border-right: -1px solid;
+        width: 25%;
+        text-align: center;
+    }
+    span.shopAndGenderImg {
+        display: none;
+    }
+    .shopAndGender {
+        padding: 6px 0px;
+    }
+    p {
+        font-size: 13px;
+        text-align: center;
+    }
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+        display: none;
+    }
+    .inquaryForm > h3 {
+        font-size: 11px;
+        text-indent: 0px;
+        text-align: center;
+    }
+    .inquaryForm {
+        padding: 8px 0px;
+    }
+    .popup {
+		top: 20%;
+		left: 25%;
+		width: 91%;
+    }
+    .toggleNavbarIcon {
+        flex-direction: column;
+      }
+      .toggleNavbarIconText {
+        padding: 15px 1px;
+      }
+      .toggleNavbarIcon span {
+        display: inline-block;
+        padding: 0px 8px;
+        font-size: 21px;
+      }
+      .overlay-content {
+        position: relative;
+        top: 10%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    a{
+        cursor: pointer;
+    }
+    .slide_window {
+        height: 180px !important;
+        width: 414px;
+        overflow: hidden;
+    }
+    #fcomment{
+        height: 120px !important;
+    }
+}
